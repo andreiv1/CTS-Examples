@@ -35,6 +35,11 @@ public class Program {
         System.out.println("Copied document: ");
         docClone.showParagraphs();
 
-
+        Document doc2 = new WordDocument();
+        doc2.addParagraph("Some text.");
+        doc2.editParagraph(0,"Edited!");
+        doc2.addParagraph("Another text.");
+        System.out.println("**");
+        doc2.showParagraphs();
     }
 }

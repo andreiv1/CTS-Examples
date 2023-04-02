@@ -3,6 +3,11 @@ package DPrototype.entities;
 import java.util.List;
 
 public class WordDocument extends Document {
+
+    public WordDocument() {
+        super();
+    }
+
     public WordDocument(String title, List<Paragraph> paragraphs) {
         super(title, paragraphs);
     }
